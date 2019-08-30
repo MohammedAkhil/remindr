@@ -1,4 +1,4 @@
-class Remaindr < Formula
+class Remindr < Formula
   include Language::Python::Virtualenv
 
   desc "A CLI remainder"
