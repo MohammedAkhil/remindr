@@ -10,7 +10,6 @@ class Remaindr < Formula
   # TODO: If you're submitting an existing package, make sure you include your
   #       bottle block here.
 
-  depends_on :python3
 
   def install
     virtualenv_install_with_resources
