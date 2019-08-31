@@ -4,5 +4,6 @@
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
-  }
+  },
+  "python.pythonPath": "/Users/akhil/Dev/Code/Fsociety/python/remindr/venv3/bin/python3.7"
 }
