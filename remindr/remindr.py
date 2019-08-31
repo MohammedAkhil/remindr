@@ -82,7 +82,3 @@ def remove(id):
 def get(id):
     task = getTask(id)
     click.echo("{}".format(task))
-
-
-if __name__ == '__main__':
-    main()
