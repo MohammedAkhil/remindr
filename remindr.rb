@@ -7,10 +7,9 @@ class Remindr < Formula
   sha256 "6039ac45d5b8f564e6c12ed06875fc03a39461e1ed15b3b266132ba9838cc0e0"
   head "https://github.com/MohammedAkhil/remindr.git"
 
-  # TODO: If you're submitting an existing package, make sure you include your
-  #       bottle block here.
 
-  depends_on "python@3"
+  depends_on :python
+
 
   def install
     virtualenv_install_with_resources
