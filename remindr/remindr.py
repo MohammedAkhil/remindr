@@ -10,9 +10,10 @@ import uuid
 import json
 from time import sleep
 from crontab import CronTab
+from pathlib import Path
 
-
-db = TinyDB('./tasks.json')
+home = str(Path.home())
+db = TinyDB("%s/tasks.json" % home)
 Tasks = Query()
 cron = CronTab(user=True)
 
@@ -81,3 +82,7 @@ def remove(id):
 def get(id):
     task = getTask(id)
     click.echo("{}".format(task))
+
+
+if __name__ == '__main__':
+    main()
